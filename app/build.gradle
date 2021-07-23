@@ -38,7 +38,7 @@ android {
         versionCode 163
         versionName "3.35.1"
 
-        applicationId "io.stormbird.wallet"
+        applicationId "io.ramestta.wallet"
         minSdkVersion 23
         targetSdkVersion 30
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'

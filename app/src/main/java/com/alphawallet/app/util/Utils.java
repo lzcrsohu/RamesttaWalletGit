@@ -790,7 +790,7 @@ public class Utils {
                 repoChain = "avalanche";
                 break;
             case MATIC_ID:
-                repoChain = "polygon";
+                repoChain = "ramestta";
                 break;
             case KOVAN_ID:
             case RINKEBY_ID:
