@@ -338,7 +338,7 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
 
         if (selectedIds.size() == 0)
         {
-            selectedIds.add(isMainNet ? MAINNET_ID : RINKEBY_ID);
+            //selectedIds.add(isMainNet ? MAINNET_ID : RINKEBY_ID);
             selectedIds.add(isMainNet ? MATIC_ID : MATIC_TEST_ID);
             preferences.blankHasSetNetworkFilters();
             preferences.commit();

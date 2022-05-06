@@ -16,11 +16,12 @@ import java.util.List;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 import static com.alphawallet.ethereum.EthereumNetworkBase.MAINNET_ID;
+import static com.alphawallet.ethereum.EthereumNetworkBase.MATIC_ID;
 
 public class CustomViewSettings
 {
-    private static final int primaryChain = MAINNET_ID;
-    private static final String primaryChainName = C.ETHEREUM_NETWORK_NAME;
+    private static final int primaryChain = MATIC_ID;
+    private static final String primaryChainName = C.MATIC_NETWORK;
 
     //You can use the settings in this file to customise the wallet appearance
 
