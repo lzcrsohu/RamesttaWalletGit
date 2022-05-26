@@ -27,7 +27,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final int FANTOM_TEST_ID = 4002;
     public static final int AVALANCHE_ID = 43114;
     public static final int FUJI_TEST_ID = 43113;
-    public static final int MATIC_ID = 1337;
+    public static final int MATIC_ID = 1370;
     public static final int MATIC_TEST_ID = 80001;
     public static final int OPTIMISTIC_MAIN_ID = 10;
     public static final int OPTIMISTIC_TEST_ID = 69;
@@ -53,7 +53,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final String FUJI_TEST_RPC_URL = "https://api.avax-test.network/ext/bc/C/rpc";
     public static final String FANTOM_RPC_URL = "https://rpcapi.fantom.network";
     public static final String FANTOM_TEST_RPC_URL = "https://rpc.testnet.fantom.network";
-    public static final String MATIC_RPC_URL = "https://blockchain.ramestta.com";//"https://matic-mainnet.chainstacklabs.com";
+    public static final String MATIC_RPC_URL = "http://103.150.136.112:8545";//"https://matic-mainnet.chainstacklabs.com";
     public static final String MUMBAI_TEST_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_URL = "https://kovan.optimism.io";

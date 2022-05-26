@@ -116,9 +116,9 @@ public abstract class EthereumNetworkBase implements EthereumNetworkRepositoryTy
     public static final String HECO_TEST_RPC_URL = "https://http-testnet.hecochain.com";
     public static final String OPTIMISTIC_MAIN_URL = "https://optimism-mainnet.infura.io/v3/" + getInfuraKey();
     public static final String OPTIMISTIC_TEST_URL = "https://optimism-kovan.infura.io/v3/" + getInfuraKey();
-    public static final String MATIC_RPC_URL = "https://blockchain.ramestta.com";//"https://polygon-mainnet.infura.io/v3/" + getInfuraKey();
+    public static final String MATIC_RPC_URL = "http://103.150.136.112:8545";//"https://polygon-mainnet.infura.io/v3/" + getInfuraKey();
     public static final String MUMBAI_TEST_RPC_URL = "https://polygon-mumbai.infura.io/v3/" + getInfuraKey();
-    public static final String MATIC_FALLBACK_RPC_URL = "https://blockchain.ramestta.com";//"https://matic-mainnet.chainstacklabs.com";
+    public static final String MATIC_FALLBACK_RPC_URL = "http://103.150.136.112:8545";//"https://matic-mainnet.chainstacklabs.com";
     public static final String MUMBAI_FALLBACK_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_FALLBACK_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_FALLBACK_URL = "https://kovan.optimism.io";
