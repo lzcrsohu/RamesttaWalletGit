@@ -53,7 +53,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
     public static final String FUJI_TEST_RPC_URL = "https://api.avax-test.network/ext/bc/C/rpc";
     public static final String FANTOM_RPC_URL = "https://rpcapi.fantom.network";
     public static final String FANTOM_TEST_RPC_URL = "https://rpc.testnet.fantom.network";
-    public static final String MATIC_RPC_URL = "http://103.150.136.112:9545";//"https://matic-mainnet.chainstacklabs.com";
+    public static final String MATIC_RPC_URL = "https://blockchain.ramestta.com";//"https://matic-mainnet.chainstacklabs.com";
     public static final String MUMBAI_TEST_RPC_URL = "https://matic-mumbai.chainstacklabs.com";
     public static final String OPTIMISTIC_MAIN_URL = "https://mainnet.optimism.io";
     public static final String OPTIMISTIC_TEST_URL = "https://kovan.optimism.io";
@@ -102,7 +102,7 @@ public abstract class EthereumNetworkBase { // implements EthereumNetworkReposit
             put(FANTOM_TEST_ID, new NetworkInfo("Fantom (Test)", "FTM", FANTOM_TEST_RPC_URL, "https://explorer.testnet.fantom.network/tx/",
                     FANTOM_TEST_ID));
 
-            put(MATIC_ID, new NetworkInfo("Ramestta", "RAMA", MATIC_RPC_URL, "http://103.150.136.112:3000/tx/",
+            put(MATIC_ID, new NetworkInfo("Ramestta", "RAMA", MATIC_RPC_URL, "https://ramascan.com/tx/",
                     MATIC_ID));
             put(MATIC_TEST_ID, new NetworkInfo("Mumbai (Test)", "POLY", MUMBAI_TEST_RPC_URL, "https://mumbai.polygonscan.com/tx/",
                     MATIC_TEST_ID));
